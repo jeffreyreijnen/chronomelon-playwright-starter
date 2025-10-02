@@ -1,5 +1,5 @@
 /* eslint-disable playwright/no-skipped-test */
-import { test } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import env from '../../config/env';
 
 test.describe('ReqRes - Negative cases', () => {
